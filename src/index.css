@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.HomeTop_Image {
+  background-image: url(./Images/diptyque_home_1.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: contain;
+  background-attachment: scroll;
+  width: 100vw;
+  height: 30vh;
+  background-position: center;
+  justify-content: center;
+  align-items: end;
+  font-size: 50px;
+  font-weight: 1000;
+  color: white;
+  line-height: 75px;
+  padding-bottom: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.DiptyqueParis {
+  line-height: 12px;
+}
+
+.Paris {
+  font-size: 15px;
+}
+
+.HomeMiddle_Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  height: 30vh;
+  color: white;
+  font-size: 25px;
+}
+
+.Middle1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url(./Images/Middle11.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 370px;
+  background-size: 370px 30vh;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.Middle2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url(./Images/Middle2.webp);
+  background-size: contain;
+  width: 370px;
+  background-size: 370px 30vh;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.Middle3 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url(./Images/Middle33.jpg);
+  background-size: contain;
+  width: 370px;
+  background-size: 370px 30vh;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.Middle4 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url(./Images/Middle4.jpg);
+  background-size: contain;
+  width: 370px;
+  background-size: 370px 30vh;
+  background-repeat: no-repeat;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.HomeVideo {
+  margin-top: 100px;
 }
